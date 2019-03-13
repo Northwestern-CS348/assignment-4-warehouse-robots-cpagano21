@@ -1,0 +1,76 @@
+TESTS WITH ERRORS 
+test01 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\gradingtests.py", line 7, in test01
+    plan = planner.find_plan("warehouse_world.pddl","test01.pddl")
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\planner.py", line 50, in find_plan
+    plan = Plan(resp)
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\planner.py", line 16, in __init__
+    self.plan = [act['name'] for act in resp['result']['plan']]
+TypeError: string indices must be integers
+
+test02 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\gradingtests.py", line 16, in test02
+    plan = planner.find_plan("warehouse_world.pddl","test02.pddl")
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\planner.py", line 50, in find_plan
+    plan = Plan(resp)
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\planner.py", line 16, in __init__
+    self.plan = [act['name'] for act in resp['result']['plan']]
+TypeError: string indices must be integers
+
+test03 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\gradingtests.py", line 25, in test03
+    plan = planner.find_plan("warehouse_world.pddl","test03.pddl")
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\planner.py", line 50, in find_plan
+    plan = Plan(resp)
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\planner.py", line 16, in __init__
+    self.plan = [act['name'] for act in resp['result']['plan']]
+TypeError: string indices must be integers
+
+test04 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\gradingtests.py", line 34, in test04
+    plan = planner.find_plan("warehouse_world.pddl","test04.pddl")
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\planner.py", line 50, in find_plan
+    plan = Plan(resp)
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\planner.py", line 16, in __init__
+    self.plan = [act['name'] for act in resp['result']['plan']]
+TypeError: string indices must be integers
+
+test05 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\gradingtests.py", line 43, in test05
+    plan = planner.find_plan("warehouse_world.pddl","test05.pddl")
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\planner.py", line 50, in find_plan
+    plan = Plan(resp)
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\planner.py", line 16, in __init__
+    self.plan = [act['name'] for act in resp['result']['plan']]
+TypeError: string indices must be integers
+
+test06 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\gradingtests.py", line 52, in test06
+    plan = planner.find_plan("warehouse_world.pddl","test06.pddl")
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\planner.py", line 50, in find_plan
+    plan = Plan(resp)
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\planner.py", line 16, in __init__
+    self.plan = [act['name'] for act in resp['result']['plan']]
+TypeError: string indices must be integers
+
+test07 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\gradingtests.py", line 60, in test07
+    plan = planner.find_plan("warehouse_world.pddl","test07.pddl")
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\planner.py", line 50, in find_plan
+    plan = Plan(resp)
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\planner.py", line 16, in __init__
+    self.plan = [act['name'] for act in resp['result']['plan']]
+TypeError: string indices must be integers
+
+-------------------------------
+TESTS FAILED  
+-------------------------------
+TESTS SKIPPED 
+-------------------------------
